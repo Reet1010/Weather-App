@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body class="body">
+    <!-- <video
+      autoplay
+      loop
+      muted
+      playsinline
+      id="myvideo"
+      <source
+      src="./project videos/test264.mp4"
+      type="video/mp4"
+    >
+      >
+    </video> -->
+    <div class="output">
+      <h1 class="h1">Weather Info</h1>
+      <div class="time-location">
+        <p class="cityName"></p>
+        <p class="time"></p>
+        <p class="temp"></p>
+      </div>
+      <div class="condition">
+        <span></span>
+        <div class="imgdiv"></div>
+      </div>
+    </div>
+
+    <div class="input">
+      <form id="searchForm">
+        <input
+          type="text"
+          placeholder="Please enter City Name here"
+          id="searchInput"
+          autocomplete="off"
+          required
+        />
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+/* .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .output {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(20, 19, 19);
+        color: #dddddd;
+        height: 600px;
+        width: 100vw;
+      }
+
+      .input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #2c2a2a;
+        color: white;
+        height: 150px;
+        width: 100vw;
+      }
+
+      .button {
+        height: 50px;
+        width: 65px;
+        color: white;
+        background-color: rgb(8, 240, 182);
+      }
+
+      .temp {
+        color: white;
+      }
+      .condition{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .condition img{
+        height: 50px;
+        width: 50px;
+      }
+      .searchField {
+        background-color: #2c2a2a;
+        height: 43px;
+        color: white;
+      }
+     */
+
+/* #myvideo {
+  position: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, skyblue, white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} /* Output Card */
+.output {
+  /* background-color: #1c1c1c; */
+  background-color: transparent;
+  color: #eaeaea;
+  width: 90%;
+  max-width: 420px;
+  padding: 25px;
+  border-radius: 12px;
+  text-emphasis: 10px; /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); */
+  text-align: center;
+}
+.h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #00f5c4;
+} /* Info Section */
+.time-location p {
+  font-size: 16px;
+}
+.temp {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+} /* Condition */
+.condition {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.condition span {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.condition img {
+  height: 64px;
+  width: 64px;
+} /* Input Section */
+.input {
+  margin-top: 25px;
+}
+form {
+  display: flex;
+  gap: 10px;
+}
+#searchInput {
+  height: 45px;
+  width: 240px;
+  padding: 0 10px;
+  border-radius: 60px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.button {
+  height: 45px;
+  padding: 0 15px;
+  border-radius: 60px;
+  border: none;
+  background-color: #00f5c4;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: #00d6aa;
+}
