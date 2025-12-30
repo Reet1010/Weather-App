@@ -1,4 +1,4 @@
-      /* .body {
+/* .body {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -52,16 +52,6 @@
         color: white;
       }
      */
-
-
-
-
-
-
-
-
-
-
 
 * {
   margin: 0;
@@ -128,6 +118,13 @@ body {
   width: 64px;
 }
 
+.suggestion {
+  display: none;
+}
+
+#suggestionBtn {
+  display: none;
+}
 /* Input Section */
 .input {
   margin-top: 25px;
