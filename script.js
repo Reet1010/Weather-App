@@ -9,7 +9,7 @@ const imgdiv = document.querySelector(".imgdiv");
 const WeatherApiKey = "cdc70beb63034d52ab915622251710";
 const suggestionDiv = document.querySelector(".suggestion");
 const suggestionBtn = document.querySelector("#suggestionBtn");
-const AIapiKey = "AIzaSyAPDeUNwi7Cef16mqn0qM0MlquxzD8N0Go";
+const AIapiKey = "AIzaSyDC92f788WPvOt6i1zKZEmOkU8dIBemfv8";
 
 //please do not try to use the apiKeys, they have a rate limit of 4 requests per minute and 20 requests per day.
 
@@ -87,7 +87,7 @@ async function weatherApi(city) {
   } catch (error) {
     console.error("Error fetching data", error.message);
     alert(
-      "Unable fetching data. Please try after some time or with a different city name."
+      "Unable fetching data. Please try after some time or with a different city name.",
     );
   }
 }
@@ -102,7 +102,7 @@ async function getSuggestion(city, temperature, condition) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
-      }
+      },
     );
 
     const data = await response.json();
