@@ -9,7 +9,7 @@ const imgdiv = document.querySelector(".imgdiv");
 const WeatherApiKey = "cdc70beb63034d52ab915622251710";
 const suggestionDiv = document.querySelector(".suggestion");
 const suggestionBtn = document.querySelector("#suggestionBtn");
-const AIapiKey = "AIzaSyDC92f788WPvOt6i1zKZEmOkU8dIBemfv8";
+const AIapiKey = "AIzaSyD_jA5NVUGn_rfj05c_U8aQEkdIPxzgnqA";
 
 //please do not try to use the apiKeys, they have a rate limit of 4 requests per minute and 20 requests per day.
 
